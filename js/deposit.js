@@ -1,12 +1,12 @@
 // Step-1 add event listener to the deposit button
 document.getElementById('btn-deposit').addEventListener('click', function () {
 
-    //    step-2 get the deposit valu from the deposit input field
+    // step-2 get the deposit valu from the deposit input field
     const depositFild = document.getElementById('diposit-field');
     const newDepositAmountString = depositFild.value;
     const newDepositAmount = parseFloat(newDepositAmountString);
 
-    //   step-3 get the current deposit totel
+    // step-3 get the current deposit totel
     const depositTotelElements = document.getElementById('deposit-totel');
     const previousDepositTotelString = depositTotelElements.innerText;
     const previousDepositTotel = parseFloat(previousDepositTotelString);
